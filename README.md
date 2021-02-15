@@ -43,6 +43,7 @@ To run the tests run `./gradlew test`
 
 ## Notes on implementation
 * The application is written in Java with Spring Boot. This choice was made because Java is the most common language that I have used recently, while Spring Boot makes creating a small web app quick & simple.
+* The tokens are stored in an in-memory database (h2)
 * The application consists of two endpoints - one to create a token, one to make a payment. The API for both is very minimal, so there is no way of entering e.g. a billing address on a token, or a CVC on a payment.
 * The payment gateways in use are Braintree and Stripe. If none is specified then the default is Braintree. 
 * Stripe will error if the card is not a pre-defined test card.
