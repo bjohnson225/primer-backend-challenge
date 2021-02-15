@@ -7,7 +7,9 @@ import primer.payments.client.PaymentProcessorError;
 import primer.payments.client.StripeClient;
 import primer.payments.model.Payment;
 import primer.payments.model.PaymentOutcome;
-
+/*
+ * Payment service which routes the payment to a particular processor, defaulting to Braintree
+ */
 @Service
 public class PaymentsService {
 

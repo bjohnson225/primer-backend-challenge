@@ -1,5 +1,8 @@
 package primer.payments.model;
 
+/*
+ * Domain level representation of a payment outcome
+ */
 public record PaymentOutcome(Outcomes outcome, int amount, String currency, Card cardDetails) {
     public enum Outcomes {
         SENT_FOR_SETTLEMENT("Sent for Settlement"), DECLINED("Declined");

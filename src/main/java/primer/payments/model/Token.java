@@ -5,6 +5,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.UUID;
 
+/*
+ * Domain layer representation of a token that is also used to save a token to the database
+ */
 @Entity
 public class Token {
     @Id

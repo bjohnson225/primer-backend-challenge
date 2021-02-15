@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import primer.payments.model.Token;
-import primer.payments.model.dto.request.ExpiryDateDto;
+import primer.payments.model.dto.request.TokenRequestDto.ExpiryDateDto;
 import primer.payments.model.dto.request.TokenRequestDto;
 import primer.payments.repository.TokenizationRepository;
 

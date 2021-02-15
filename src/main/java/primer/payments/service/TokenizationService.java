@@ -8,6 +8,9 @@ import primer.payments.repository.TokenizationRepository;
 import java.util.Optional;
 import java.util.UUID;
 
+/*
+ * Tokenization Service allows for the creation and retrieval of tokens
+ */
 @Service
 public class TokenizationService {
 
