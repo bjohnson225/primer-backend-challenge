@@ -1,4 +1,4 @@
-# Primer Backend Challenge
+# Payments
 
 Simple application which allows a token to be created, and then used to make payments in the sandbox environment of either Braintree or Stripe. The token creation endpoint will return only the token ID, while the payments endpoint will return the outcome and some metadata from the payment.
 
