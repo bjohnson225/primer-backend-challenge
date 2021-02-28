@@ -1,4 +1,4 @@
-# Payments
+# Primer Backend Developer Challenge (primer.io)
 
 Simple application which allows a token to be created, and then used to make payments in the sandbox environment of either Braintree or Stripe. The token creation endpoint will return only the token ID, while the payments endpoint will return the outcome and some metadata from the payment.
 
@@ -38,7 +38,7 @@ By default, Braintree is used. To make a request to Stripe it is required to add
 
 
 ## Running the application
-The only pre-requisite is Java 15. Once installed, run `./gradlew bootRun` from the root directory. The above requests can then be ran with localhost:8080 replacing the AWS doamin.
+The only pre-requisite is Java 15. Once installed, run `./gradlew bootRun` from the root directory. The above requests can then be ran with localhost:8080 replacing the AWS domain.
 
 To run the tests run `./gradlew test`
 
